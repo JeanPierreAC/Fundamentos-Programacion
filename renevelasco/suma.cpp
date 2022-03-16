@@ -4,9 +4,9 @@
  int main()
  {
 	 float A,B,C;
-	 count<<"ingrese los valores de la suma:  "<<endl;
+	 count<<"ingrese los valores: "<<endl;
 	 cin>>A>>B;
 	 C=A+B;
-	 count<<"la respuesta a la suma es: " <<C<<endl;
+	 count<<"el total es: "<<C<<endl;
 	 return 0;
 }
