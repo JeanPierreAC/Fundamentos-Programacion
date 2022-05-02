@@ -3,7 +3,8 @@
 using namespace std;
 
 int main()
-{   
+{  
+    int n1,n2;
     cout<<"digite 2 numeros:";
     cin>>n1>>n2;
     
