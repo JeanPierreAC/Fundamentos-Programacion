@@ -6,7 +6,7 @@
 using namespace std;
 //librerias
 #include"AnguloJean.h"
-
+#include"chichande.h":wq
 
 int main() {
         int a,r,d,flag;
