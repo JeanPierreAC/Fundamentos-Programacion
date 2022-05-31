@@ -45,7 +45,6 @@ cout<<"//================================================="<<endl;
 
     cout<<"dinero total";
     cout<<ag_a;
-    5
     cout<<"dinero total 0.1";
     cout<<ag_a1;
     cout<<"dinero total 0.25";
