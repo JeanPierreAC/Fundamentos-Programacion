@@ -12,10 +12,9 @@ using namespace std;
 int main()
 {
   float ag_x,ag_N,ag_iva,ag_vf,ag_c=0,ag_a=0,ag_desc,ag_vb,ag_vdes,ag_vb2,ag_viva;
-	cout<<"ingrese el numero de producto,valor del iva y del descuento :"; cin>>ag_N>>ag_iva>>ag_desc;
-	do{
-		
-		cout<<"ingresar el precio del producto";cin>>ag_x;
+	cout<<"ingrese el numero de productos,valor del iva y del descuento separados por un espacio:"; cin>>ag_N>>ag_iva>>ag_desc;
+	do{	
+		cout<<"ingresar el precio del producto: ";cin>>ag_x;
 		ag_c=ag_c+1;
 		ag_a=ag_a+ag_x;
 		
@@ -38,7 +37,8 @@ cout<<"//================================================="<<endl;
 
 
 
-  cout<<"el valor a pagar es:"<<ag_vf<<endl;
-	   cout<<"tuvo un iva de:"<<ag_viva<<endl;
-       cout<<"y con el descuento de :"<<ag_vdes;
+  cout<<"El valor a pagar es: "<<ag_vf<<endl;
+	   cout<<"Tuvo un iva de: "<<ag_viva<<endl;
+       cout<<"Y con el descuento de : "<<ag_vdes;
   return 0;
+  }
